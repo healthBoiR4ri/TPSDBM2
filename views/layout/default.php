@@ -43,6 +43,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="<?= PATH ?>/fabricants">Gestion des Fabricants</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= PATH ?>/marques">Gestion des Marques</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
