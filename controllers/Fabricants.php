@@ -66,11 +66,11 @@ class Fabricants extends Controller
 
         // On redirige vers la liste
         // On stocke les couleurs dans $couleur
-        $couleurs = $this->Fabricant->getAll();
+        $fabricant = $this->Fabricant->getAll();
 
 
         // On envoie les données à la vue index
-        $this->render('index', compact('fabricants', 'message', 'type_message'));
+        $this->render('index', compact('fabricant', 'message', 'type_message'));
     }
 
 

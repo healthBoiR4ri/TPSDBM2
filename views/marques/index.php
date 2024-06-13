@@ -1,25 +1,32 @@
-<h1>Liste des Continents</h1>
+<h1>Liste des Marques</h1>
 
-<a href="<?= PATH ?>/continents/ajout"><button type='button' class='btn btn-primary fas fa-plus'>Ajouter</button></a><br/>
+<a href="<?= PATH ?>/marques/ajout"><button type='button'
+        class='btn btn-primary bi bi-plus-circle'>&nbsp;Ajouter</button></a><br />
 
-<table  class="table table-dark table-hover">
+<table class="table table-dark table-hover">
     <tr>
         <th>Code</th>
         <th>Nom</th>
+        <th>Fabricant</th>
+        <th>Pays</th>
         <th>Actions</th>
     </tr>
 
-<?php foreach($continents as $continent): ?>
- 
+    <?php foreach($marques as $marque): ?>
+
     <tr>
-        <td><?= $continent['ID_CONTINENT'] ?></td>
-        <td><?= $continent['NOM_CONTINENT'] ?></td>
+        <td><?= $marque['ID_MARQUE'] ?></td>
+        <td><?= htmlspecialchars($marque['NOM_MARQUE']) ?></td>
+        <td><?= $marque['NOM_FABRICANT'] ?></td>
+        <td><?= $marque['NOM_PAYS'] ?></td>
         <td>
-            <a href="<?= PATH ?>/continents/modif/<?= $continent['ID_CONTINENT'] ?>"><button class='btn btn-info btn-sm fas fa-pencil-alt fa-sm'></button></a>
-            <a href="<?= PATH ?>/continents/suppr/<?= $continent['ID_CONTINENT'] ?>"><button class='btn btn-danger btn-sm fas fa-trash-alt fa-sm'></button></a>
+            <a href="<?= PATH ?>/marques/modif/<?= $marque['ID_MARQUE'] ?>"><button
+                    class="btn btn-success bi bi-pencil"></button></a>
+            <a href="<?= PATH ?>/marques/suppr/<?= $marque['ID_MARQUE'] ?>"><button
+                    class="btn btn-danger bi bi-trash3"></button></a>
         </td>
     </tr>
 
-<?php endforeach ?>
+    <?php endforeach ?>
 
 </table>
