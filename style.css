@@ -1,0 +1,153 @@
+
+
+
+  
+  .titre{
+    font-size:120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(233, 113, 15);
+    /* color:rgb(20, 124, 67); */
+  
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    
+   
+  }
+ 
+
+
+  .h2{
+    background-color:rgb(156, 124, 177);
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+    color: rgb(7, 7, 7);
+    animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-right: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-right: 0%;
+        width: 100%;
+      } 
+  } 
+
+  /* .div{
+    border: 2px solid black; 
+    background-color: rgb(162, 213, 219); 
+    text-align: center;
+    font-size:larger;
+  
+  }  */
+
+
+
+  #btn-new{
+
+    color: rgb(251, 253, 253);
+    margin-left: 10.5%;
+  
+  }
+
+  #txtRech{
+    margin:auto;
+    text-align:justify;
+  }
+
+  /* body{
+   
+      background-color: rgb(236, 194, 138);
+      
+  } */
+
+  body>h2{
+    text-align: center;
+  }
+  #zoneTable{
+width: 1350px;
+margin: auto;
+text-align: center;
+  }
+
+
+  .table > :not(caption) > * > * {
+    padding: .5rem .5rem;
+    background-color: #625d457a;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+  }
+  
+
+  footer{
+ position:fixed;
+    bottom:0;
+    text-align: center;
+    font-size: 80%;
+  background-color:rgb(126, 170, 126); 
+   
+    width:100%;}
+
+    h2{
+    font-size: 20px; 
+  }
+  
+ h1{
+    color: antiquewhite;
+ }
+  body{
+   
+    background-image: url(./banniere.jpg);
+    background-size: cover;
+
+
+  }
+
+  
+ 
+  .titre1{
+    text-align: center;
+    font-size:120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(233, 113, 15);
+    /* color:rgb(20, 124, 67); */
+  
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+
+    .titre0{
+        text-align: center;
+        font-size:60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:rgb(233, 113, 15);
+        /* color:rgb(20, 124, 67); */
+      
+          animation-duration: 3s;
+          animation-name: slidein;
+        }
+    
+
+
+  
+ 
+  
